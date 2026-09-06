@@ -94,7 +94,11 @@ fn validate_required_files(root: &Path) -> Result<(), String> {
 }
 
 fn git_status(root: &Path) -> Result<String, String> {
-    output(root, "git", &["status", "--porcelain", "--untracked-files=all"])
+    output(
+        root,
+        "git",
+        &["status", "--porcelain", "--untracked-files=all"],
+    )
 }
 
 fn run(root: &Path, program: &str, args: &[&str]) -> Result<(), String> {
@@ -123,10 +127,7 @@ fn run_with_env(
     if status.success() {
         Ok(())
     } else {
-        Err(format!(
-            "{program} {} exited with {status}",
-            args.join(" ")
-        ))
+        Err(format!("{program} {} exited with {status}", args.join(" ")))
     }
 }
 
