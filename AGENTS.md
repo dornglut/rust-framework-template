@@ -25,8 +25,10 @@ product dependencies, releases, or ongoing synchronization.
 
 1. Read the current repository authority and accepted Engineering standards.
 2. Keep changes bounded to the template's generic bootstrap purpose.
-3. Run `cargo validate` with a checked-out Rust executor before declaring work ready.
-4. Validate the exact feature head through repository-owned CI.
+3. Run `cargo validate` from a suitable checked-out Rust executor when one is
+   available; do not simulate local validation when the selected procedure lacks
+   local execution.
+4. Validate the exact feature head through repository-owned CI before acceptance.
 5. Merge only the exact reviewed head after reconciling current `main`.
 
 The template is not an ongoing authority for repositories generated from it.

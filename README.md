@@ -7,6 +7,12 @@ It provides a minimal repository shape, repository-owned validation entrypoint,
 bootstrap guidance, and licensing/provenance rules. It is not a product,
 framework runtime, or ongoing synchronization authority.
 
+## Maturity
+
+This repository is intentionally minimal bootstrap infrastructure. It proves a
+working repository shape and validation baseline; it does not define a product
+runtime or public framework API.
+
 ## Boundary
 
 The template owns only generic bootstrap infrastructure:
@@ -59,6 +65,8 @@ See [TESTING.md](TESTING.md).
 - [Testing](TESTING.md)
 - [Bootstrap](BOOTSTRAP.md)
 - [Agent guide](AGENTS.md)
+- [Organization contribution guidance](https://github.com/dornglut/.github/blob/main/CONTRIBUTING.md)
+- [Organization security policy](https://github.com/dornglut/.github/blob/main/SECURITY.md)
 
 ## License
 
