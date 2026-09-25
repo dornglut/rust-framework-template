@@ -19,4 +19,4 @@ concurrency:
 jobs:
   validate:
     name: Validate framework template
-    uses: dornglut/github-workflows/.github/workflows/reusable-rust-cargo-validate.yml@688f274ec1fdd19acba9bf3577b26b4b7b7f4037
+    uses: dornglut/github-workflows/.github/workflows/reusable-rust-cargo-validate.yml@b7093b6deaba572ae1f3c6997740380b90e61ed7
