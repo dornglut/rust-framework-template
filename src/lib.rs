@@ -6,8 +6,7 @@
 #[cfg(test)]
 mod workflow_source_freshness_canary {
     #[test]
-    fn source_freshness_marker_v1() {
-        let marker = "workflow-source-freshness-marker-v1";
-        assert!(marker.ends_with("v1"));
+    fn source_freshness_marker_v2() {
+        panic!("workflow-source-freshness-marker-v2");
     }
 }
