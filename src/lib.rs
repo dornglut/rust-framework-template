@@ -6,7 +6,7 @@
 #[cfg(test)]
 mod sccache_source_freshness_canary {
     #[test]
-    fn source_freshness_marker_v1() {
-        assert_eq!("sccache-source-freshness-v1", "sccache-source-freshness-v1");
+    fn source_freshness_marker_v2() {
+        panic!("sccache-source-freshness-v2");
     }
 }
