@@ -7,5 +7,9 @@ name = "rust-framework-template"
 version = "0.0.0"
 
 [[package]]
+name = "sccache-canary-dep"
+version = "0.0.0"
+
+[[package]]
 name = "xtask"
 version = "0.0.0"
