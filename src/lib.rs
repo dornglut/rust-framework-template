@@ -7,6 +7,9 @@
 mod sccache_source_freshness_canary {
     #[test]
     fn source_freshness_marker_v1_with_cached_neighbor() {
-        assert_eq!("sccache-source-freshness-v1b", "sccache-source-freshness-v1b");
+        assert_eq!(
+            "sccache-source-freshness-v1b",
+            "sccache-source-freshness-v1b"
+        );
     }
 }
