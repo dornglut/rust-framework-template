@@ -6,7 +6,7 @@
 #[cfg(test)]
 mod cache_generation_canary {
     #[test]
-    fn legacy_cache_generation_marker_v1() {
-        assert_eq!("legacy-cache-generation-v1", "legacy-cache-generation-v1");
+    fn source_fresh_cache_generation_marker_v2() {
+        assert_eq!("source-fresh-cache-generation-v2", "source-fresh-cache-generation-v2");
     }
 }
