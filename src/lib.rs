@@ -7,6 +7,9 @@
 mod cache_generation_canary {
     #[test]
     fn source_fresh_cache_generation_marker_v2() {
-        assert_eq!("source-fresh-cache-generation-v2", "source-fresh-cache-generation-v2");
+        assert_eq!(
+            "source-fresh-cache-generation-v2",
+            "source-fresh-cache-generation-v2"
+        );
     }
 }
