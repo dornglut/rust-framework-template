@@ -3,10 +3,10 @@ name: Rust Framework Template Validation
 on:
   pull_request:
     branches:
-      - canary-29-legacy-cache-base
+      - main
   push:
     branches:
-      - canary-29-legacy-cache-base
+      - main
   workflow_dispatch:
 
 permissions:
